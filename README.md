@@ -1,2 +1,3 @@
-# -Lecture-Practicum
-Collection of practicum modules during lectures at Telkom University.
+# Lecture-Practicum
+A collection of modules that I worked on during the practicum at Telkom University.
+
