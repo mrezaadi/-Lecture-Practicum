@@ -1,0 +1,10 @@
+Buatlah sebuah program yang digunakan untuk menghitung luas lingkaran dengan jari-jari r.
+Masukan berupa sebuah bilangan asli r.
+Keluaran adalah sebuah string yang berisi luas lingkaran, dengan format seperti berikut ini:
+Luas lingkaran dengan jari-jari = r adalah luas_lingkaran
+
+
+Kode Python
+r = input()
+luas_lingkaran = 22 / 7 * int(r)
+print("Luas lingkaran dengan jari-jari =",r,"adalah",luas_lingkaran)

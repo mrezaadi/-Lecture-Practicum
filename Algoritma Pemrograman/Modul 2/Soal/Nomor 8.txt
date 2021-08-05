@@ -1,0 +1,12 @@
+Buatlah sebuah fungsi hitungVolume yang akan mengembalikan nilai volume dengan r dan t sebagai parameternya!
+Masukan berupa bilangan bulat r dan t,
+Keluaran berupa volume silinder haril perhitungan dengan menggunakan fungsi hitungVolume.
+*gunakan pi = 3.14
+
+Kode Python
+def hitungVolume(r, t):
+    pi = 3.14
+    return r*r*pi*t
+
+r,t = input().split()
+print(hitungVolume(int(r), int(t)))

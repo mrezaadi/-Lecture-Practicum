@@ -1,0 +1,20 @@
+Buatlah sebuah program yang menentukan rata-rata nilai seorang mahasiswa.
+
+Masukan berupa beberapa nilai (bilangan bulat) mahasiswa yang dipisahkan oleh spasi. Nilai akhir adalah -1 untuk mengakhiri masukan.
+
+Keluaran berupa bilangan desimal yang menyatakan rata-rata nilai mahasiswa.
+
+
+Kode Python
+nilai = int(input())
+jumlah = 0
+n = 0
+while nilai != -1:
+    n = n + 1
+    jumlah = jumlah + nilai
+    nilai = int(input())
+if n == 0:
+    rata2 = 0.0
+else:
+    rata2 = jumlah / n
+print(rata2)

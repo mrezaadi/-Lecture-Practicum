@@ -1,0 +1,8 @@
+Buatlah sebuah program yang akan terus menerima masukan berupa string secara terus menerus dan menampilkannya hingga masukan berupa string “selesai”.
+
+
+Kode Python
+string = input()
+while string != "selesai":
+   print(string)
+   string = input()

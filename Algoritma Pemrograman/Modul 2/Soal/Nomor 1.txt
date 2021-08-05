@@ -1,0 +1,12 @@
+Buatlah sebuah program dengan ketentuan sebagai berikut :
+Masukan berupa sebuah baris yang berisi sebuah string S tanpa spasi, dan 2 buah bilangan bulat A dan B yang masing-masing inputnya dipisahkan dengan spasi.
+Keluaran terdiri dua baris. Baris pertama adalah S, sedangkan baris kedua adalah hasil operasi penjumlahan A dengan B. Tampilan harus sesuai dengan format contoh yang diberikan berikut:
+Kata = S
+Jumlah = hasil_penjumlahan
+
+
+Kode Python
+S,A,B = input().split()
+hasil_penjumlahan = int(A) + int(B)
+print("Kata =",S)
+print("Jumlah =", hasil_penjumlahan)

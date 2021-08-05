@@ -1,0 +1,11 @@
+Buatlah sebuah program untuk menghitung rekor.
+Masukan berupa 4 buah bilangan bulat a, b, c, dan d.
+Keluaran berupa string "Ada rekor baru" apabila nilai d lebih besar dari a, b, dan c, atau "Ada rekor baru" apabila sebaliknya
+
+
+Kode Python
+a, b, c, d = input().split()
+if int(d) > int(a) and int(d) > int(b) and int(d) > int(c):
+    print("Ada rekor baru")
+else:
+    print("Tidak ada rekor baru")

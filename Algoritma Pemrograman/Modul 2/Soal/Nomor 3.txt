@@ -1,0 +1,11 @@
+Buatlah sebuah program yang digunakan untuk mengecek kelipatan suatu bilangan x.
+Masukan berupa sebuah bilangan asli x.
+Keluaran berupa string “Fizz” apabila x adalah kelipatan 3, atau/dan string “Bazz” apabila kelipatan 5.
+
+
+Kode Python
+x = input()
+if int(x) % 3 == 0:
+   print("Fizz")
+if int(x) % 5 == 0:
+   print("Bazz")
